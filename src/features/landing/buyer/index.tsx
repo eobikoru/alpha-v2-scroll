@@ -44,7 +44,7 @@ export default function ProfilePage() {
   const [isEditing, setIsEditing] = useState(false);
   const [profileData, setProfileData] = useState<ProfileData>({
     name: "Cristiano Ronaldo",
-    sessionPrice: "0.01 KAIA",
+    sessionPrice: "0.01 Eth",
     bio: "⚽ Football Legend | 🏆 5x Ballon d'Or Winner",
     website: "",
     twitter: "",

@@ -29,7 +29,7 @@ const faqData = [
   {
     question: "How are payments handled?",
     answer:
-      "Payments are made using Kaia tokens, a native cryptocurrency. Buyers can seamlessly purchase toolkits or book time slots through the platform",
+      "Payments are made using Eth tokens, a native cryptocurrency. Buyers can seamlessly purchase toolkits or book time slots through the platform",
   },
   {
     question: "Is there social proof for creators?",

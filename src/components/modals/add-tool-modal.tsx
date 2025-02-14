@@ -181,9 +181,9 @@ export function AddToolModal({ isOpen, onClose }: AddToolModalProps) {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-white mb-2">Price (in Kaia)</label>
+              <label className="block text-sm font-medium text-white mb-2">Price (in Eth)</label>
               <Input
-                placeholder="Enter price (e.g., 0.01 KAIA)"
+                placeholder="Enter price (e.g., 0.01 Eth)"
                 value={form.price}
                 onChange={(e) => {
                   const value = e.target.value

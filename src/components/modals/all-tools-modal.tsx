@@ -108,7 +108,7 @@ export function AllToolsModal({ isOpen, onClose, tools }: AllToolsModalProps) {
                       </div>
                     </div>
                     <span className="text-lime-400 font-medium">
-                      {`${tool.price} KAIA`}
+                      {`${tool.price} Eth`}
                     </span>
                   </div>
                 </div>

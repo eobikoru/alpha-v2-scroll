@@ -229,7 +229,7 @@ export default function CreatorDashboard() {
                 <span className="text-xs text-lime-400">{/* {tool.stats.purchases} Purchases */}</span>
               </div>
             </div>
-            <span className="text-lime-400 font-medium">{tool.price} KAIA</span>
+            <span className="text-lime-400 font-medium">{tool.price} Eth</span>
           </div>
         </div>
       </div>
