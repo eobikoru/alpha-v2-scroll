@@ -110,49 +110,6 @@ export default function CreatorDashboard() {
     // },
   ]
 
-  // const appointments: Appointment[] = [
-  //   {
-  //     id: "1",
-  //     username: "Kristian234",
-  //     time: "08:00",
-  //     date: "Today",
-  //     avatar: "/placeholder.svg?height=40&width=40",
-  //     duration: "30 minutes",
-  //     status: "upcoming",
-  //     price: "0.1 ETH",
-  //     notes: "Looking forward to discussing Web3 strategies.",
-  //   },
-  //   {
-  //     id: "2",
-  //     username: "Kristian234",
-  //     time: "10:00",
-  //     date: "Today",
-  //     avatar: "/placeholder.svg?height=40&width=40",
-  //     duration: "1 hour",
-  //     status: "upcoming",
-  //     price: "0.2 ETH",
-  //   },
-  //   {
-  //     id: "3",
-  //     username: "Kristian234",
-  //     time: "14:00",
-  //     date: "24 Jan",
-  //     avatar: "/placeholder.svg?height=40&width=40",
-  //     duration: "45 minutes",
-  //     status: "completed",
-  //     price: "0.15 ETH",
-  //   },
-  //   {
-  //     id: "4",
-  //     username: "Kristian234",
-  //     time: "16:00",
-  //     date: "24 Jan",
-  //     avatar: "/placeholder.svg?height=40&width=40",
-  //     duration: "30 minutes",
-  //     status: "cancelled",
-  //     price: "0.1 ETH",
-  //   },
-  // ];
 
   function formatTimestamp(unixTimestamp: bigint | number): string {
     const timestampInMs = Number(unixTimestamp) * 1000
@@ -250,7 +207,7 @@ export default function CreatorDashboard() {
             <div className="flex items-end gap-6">
               <div className="relative">
                 <img
-                  src={` https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${photoHash}`}
+                  src={`https://${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/${photoHash}`}
                   alt="Profile"
                   // width={160}
                   // height={160}
