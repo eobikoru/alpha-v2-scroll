@@ -41,7 +41,7 @@ const BuyerHome = () => {
       description:
         "The ultimate hub for degens in the Web3 space. Stay ahead of the curve with real-time alpha, expert insights, and curated guides on trading, NFTs, DeFi, and crypto trends.",
       avatar: "/placeholder.svg?height=40&width=40",
-      price: "300KYA",
+      price: "300USDT",
       type: "PDF",
       variant: "blue",
     },
@@ -52,7 +52,7 @@ const BuyerHome = () => {
       description:
         "The ultimate hub for degens in the Web3 space. Stay ahead of the curve with real-time alpha, expert insights, and curated guides on trading, NFTs, DeFi, and crypto trends.",
       avatar: "/placeholder.svg?height=40&width=40",
-      price: "300KYA",
+      price: "300USDT",
       type: "PDF",
       variant: "purple",
     }),

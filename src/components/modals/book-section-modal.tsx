@@ -262,7 +262,7 @@ export function BookSessionModal({ isOpen, onClose, creator }: BookSessionModalP
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h3 className="text-zinc-400 mb-2">Total amount</h3>
-          <p className="text-4xl font-semibold text-white">300KYA</p>
+          <p className="text-4xl font-semibold text-white">300USDT</p>
         </div>
 
         <div className="space-y-4">
